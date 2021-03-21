@@ -1,0 +1,82 @@
+body {
+	text-align: center;
+	margin-left: 40px;
+}
+
+h1 {
+	color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+	color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+	font-size: 1.2rem;
+}
+
+img {
+    height: 350px;
+    width: 350px;
+    border: solid 1px black;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+
+}
+
+button {
+    margin: 20px;  
+}
+
+/* Body section */
+.body-div {
+	background-color: rgb(71, 69, 69);
+	display: flex;
+	height: 50%;
+	width: 75%;
+	border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	justify-content: center;
+	align-items: center;
+}
+
+/* Image section */
+.image-div {
+	background-image: url("images/background.png");
+	display: flex;
+	height: 425px;
+	width: 425px;
+	border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Button */
+.myButton {
+	background:linear-gradient(to bottom, #e38bce 5%, #872abd 100%);
+	background-color: #e38bce;
+	border-radius: 25px;
+	border: 1px solid #000801;
+	display: inline-block;
+	cursor: pointer;
+	color: #f5ebf5;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 17px;
+	padding: 16px 20px;
+	text-decoration: none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #872abd 5%, #e38bce 100%);
+	background-color:#d8acf1;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
