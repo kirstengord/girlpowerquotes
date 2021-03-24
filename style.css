@@ -1,4 +1,9 @@
+html, body {
+	height: 100%;
+}
 body {
+	background: #112 url('https://images.weserv.nl/?url=i.imgur.com/6QJjYMe.jpg')  center no-repeat;
+	background-size:cover;
 	text-align: center;
 }
 
@@ -10,9 +15,10 @@ h1 {
 
 h2 {
 	color: white;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 200;
+    font-family: 'Antic', sans-serif;
 	font-size: 1.2rem;
+	margin-top: 0;
+	padding-bottom: 25px;
 }
 
 img {
@@ -27,17 +33,16 @@ img {
 div {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items:center;  
+	/* justify-content: center; */
+	align-items:center; 
 }
 
 button {
-    margin: 20px;  
+    margin-top: 50px;  
 }
 
 /* Body section */
 .body-div {
-	background-color: rgb(71, 69, 69);
 	display: flex;
 	height: 50%;
 	width: 75%;
@@ -45,40 +50,103 @@ button {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	justify-content: center;
 	align-items: center;
-	margin-top: 50px;
+	
 }
 
 /* Image section */
 .image-div {
-	background-image: url("images/background.png");
+	background-color:rgb(75, 74, 74);
 	display: flex;
 	height: 300px;
 	width: 300px;
 	border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+	box-shadow: 0 0 5px rgb(211, 208, 208), 0 0 10px rgb(98, 240, 240), 0 0 15px #f74be8, 0 0 20px #f74be8, 0 0 25px #f74be8, 0 0 30px #f80202, 0 0 35px #f80202;;
 	justify-content: center;
 	align-items: center;
 }
 
 /* Button */
 .myButton {
-	background:linear-gradient(to bottom, #e38bce 5%, #872abd 100%);
+	background:linear-gradient(to bottom, #03dacf 10%, #e38bce 100%);
 	background-color: #e38bce;
 	border-radius: 25px;
-	border: 1px solid #000801;
+	border: 1px solid rgb(179, 52, 157);
 	display: inline-block;
 	cursor: pointer;
 	color: #f5ebf5;
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Antic', sans-serif;
 	font-size: 17px;
 	padding: 16px 20px;
 	text-decoration: none;
+	box-shadow: 0 0 5px rgb(211, 208, 208), 0 0 10px rgb(250, 160, 238), 0 0 15px #f74be8;
 }
 .myButton:hover {
-	background:linear-gradient(to bottom, #872abd 5%, #e38bce 100%);
+	background:linear-gradient(to bottom, #dbacd0 10%, #03dacf 100%);
 	background-color:#d8acf1;
 }
 .myButton:active {
 	position:relative;
 	top:1px;
+}
+
+.logo {
+    text-align: center;
+    user-select: none;
+  }
+  
+  .logo b {
+    font: 400 19vh "Vibur";
+    color: #ffe;
+    font-size: 3rem;
+	padding: 20px;
+    text-shadow: 0 0 5px rgb(211, 208, 208), 0 0 10px rgb(250, 160, 238), 0 0 15px #f74be8, 0 0 20px #f74be8, 0 0 25px #f74be8, 0 0 30px #f80202, 0 0 35px #f80202;
+  }
+
+  .logo b span{
+    animation: blink linear infinite 2s;
+  }
+  .logo b span:nth-of-type(2){
+    animation: blink linear infinite 3s;
+  }
+
+  @keyframes blink {
+    78% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    79%{
+       color: #333;
+    }
+    80% {
+      
+      text-shadow: none;
+    }
+    81% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    82% {
+      color: #333;
+      text-shadow: none;
+    }
+    83% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    92% {
+      color: #333;
+      text-shadow: none;
+    }
+    92.5% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+  }
+  
+@media (max-with: 500px) {
+
+	.logo b {
+		font-size: 2.5rem;
+	}
 }
