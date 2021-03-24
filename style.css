@@ -71,7 +71,7 @@ button {
 	background:linear-gradient(to bottom, #03dacf 10%, #e38bce 100%);
 	background-color: #e38bce;
 	border-radius: 25px;
-	border: 1px solid rgb(179, 52, 157);
+	border: .5px solid rgb(248, 219, 244);
 	display: inline-block;
 	cursor: pointer;
 	color: #f5ebf5;
