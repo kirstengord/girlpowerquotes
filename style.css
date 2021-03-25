@@ -44,10 +44,6 @@ button {
 /* Body section */
 .body-div {
 	display: flex;
-	height: 50%;
-	width: 75%;
-	border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	justify-content: center;
 	align-items: center;
 	
@@ -60,8 +56,7 @@ button {
 	height: 300px;
 	width: 300px;
 	border-radius: 20px;
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-	box-shadow: 0 0 5px rgb(211, 208, 208), 0 0 10px rgb(98, 240, 240), 0 0 15px #f74be8, 0 0 20px #f74be8, 0 0 25px #f74be8, 0 0 30px #f80202, 0 0 35px #f80202;;
+	box-shadow: 0 0 5px rgb(211, 208, 208), 0 0 10px rgb(98, 240, 240), 0 0 15px #f74be8, 0 0 20px #f74be8, 0 0 25px #f74be8, 0 0 30px rgb(255, 0, 76);
 	justify-content: center;
 	align-items: center;
 }
