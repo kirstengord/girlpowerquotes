@@ -66,8 +66,8 @@ button {
 	color: rgb(75, 74, 74);
 	font-family: 'Roboto', sans-serif;
   font-weight: 100;
-	font-size: 17px;
-	padding: 16px 20px;
+	font-size: 15px;
+	padding: 10px 15px;
 	text-decoration: none;
 	box-shadow: 0 0 5px rgb(211, 208, 208), 0 0 10px rgb(250, 160, 238), 0 0 15px #f74be8;
 }
