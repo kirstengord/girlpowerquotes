@@ -7,15 +7,10 @@ body {
 	text-align: center;
 }
 
-h1 {
-	color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-}
-
 h2 {
 	color: white;
-    font-family: 'Antic', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
 	font-size: 1.2rem;
 	margin-top: 0;
 	padding-bottom: 25px;
@@ -25,7 +20,6 @@ img {
 	display: flex;
     height: 80%;
     width: 80%;
-    border: solid 1px black;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -63,14 +57,15 @@ button {
 
 /* Button */
 .myButton {
-	background:linear-gradient(to bottom, #03dacf 10%, #e38bce 100%);
+	background:linear-gradient(to bottom, #dbf7f3 10%, #1f9db6 100%);
 	background-color: #e38bce;
 	border-radius: 25px;
 	border: .5px solid rgb(248, 219, 244);
 	display: inline-block;
 	cursor: pointer;
-	color: #f5ebf5;
-	font-family: 'Antic', sans-serif;
+	color: rgb(75, 74, 74);
+	font-family: 'Roboto', sans-serif;
+  font-weight: 100;
 	font-size: 17px;
 	padding: 16px 20px;
 	text-decoration: none;
